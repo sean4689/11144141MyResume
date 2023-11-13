@@ -46,28 +46,24 @@ nav ul li a:hover{
     color: white;
 }
 .aboutmec{
-    margin-top: 100px;
+    padding-top: 120px;
+    position: relative;
+    width: 70%;
+    left: 20%;
 }
 .img2{
-    width: 13%;
+    width: 20%;
     border-radius: 100%;
-    margin-left:350px ;
 }
 .introduction1{
-    width: 50%;
+    width: 20%;
 }
 .introduction1 h2{
     text-align: center;
     font-size: 2em;
 }
 .introduction2{
-    width: 50%;
-    padding-left: 350px;
-}
-
-.introduction2 p{
     font-size: large;
-    padding-top: 20px;
 }
 
 .skills{
@@ -93,9 +89,9 @@ nav ul li a:hover{
     display: flex;
     /* grid-template-columns:  100px 400px 200px 100px 400px;
     padding-left: 20px; */
-    flex-wrap: wrap;
+    overflow: auto;
 }
-.icon{
+.icon{ 
     width: 1px;
     margin-left: 300px;
     margin-right: 100px;
@@ -178,14 +174,12 @@ nav ul li a:hover{
 }
 .experiencec_left{
     flex: auto;
-    padding-left: 400px;
-    justify-content: center;
-    align-items: center;
-    
+    position: relative;
+    left: 15%;
 }
 .experiencec_right{
     flex: auto;
-    padding-right:300px ;
+    position: relative;
 }
 .experiencec_table h1{
     text-align: center;
